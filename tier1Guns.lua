@@ -1,3 +1,6 @@
+laser
+Missiles - corrl
+
 armlwall = {
 	weapondefs = {
 		lightning = {

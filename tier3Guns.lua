@@ -1,3 +1,6 @@
+Constant Laser - armbrtha
+
+
 corminibuzz = {
 	weapondefs = {
 		cortron_weapon = {
