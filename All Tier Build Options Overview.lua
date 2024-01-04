@@ -1,10 +1,10 @@
 Tier 1 Eco
-Early Metal - "cormakr",
-Late Metal - "coruwmakr"
+Volatile Metal - Core T1 Converter "cormakr",
+Safe Metal - Core T1 Naval Converter "coruwmakr",
 
-Early Energy - "armsolar",
-Late Energy - "armadvsol"
-Alt Energy - "corwin",
+Volatile Energy - Arm (unrestricted) Geothernal "armgeo",
+Safe Energy - Arm Adv Solar "armadvsol",
+Alt Energy - Wind "corwin",
 
 Utilities = 
 
@@ -14,26 +14,27 @@ Utilities =
 
 Tier 1 Combat
 
-LR - "corpun",
-MR - "corllt",
-SR - "cormaw",
-AD - core tremor
+LR - Core T1 Plasma Cannon "corpun",
+MR -  Core LLT "corllt",
+SR - Core Flamer "cormaw",
+Area Denial - Juno
 
-LRAA - "corflak",
+LRAA - Arm Bomb Resistant AA "armcir",
 SRAA - "corrl",
 
-Support = "armrad",
-
-
+Support = 
+Radar - "armrad",
+Jammer - "armjamt",
+Shield - "corfgate",
 
 
 Tier 2 Eco
-Early Metal - "armmakr",
-Late Metal - "armuwmakr",
+Volatile Metal - "armmakr",
+Safe Metal - "armuwmakr",
 
-Early Energy - "corsolar",
-Late Energy - "coradvsol"
-Alt Energy - "armgeo",
+Volatile Energy - Core Fusion "corfus",
+Safe Energy - Core Underwater Fusion "coruwfus"
+Alt Energy - Arm Prude Geothermal "armgmm",
 
 Utilities = 
 
@@ -44,26 +45,28 @@ Utilities =
 Tier 2 Combat
 
 LR - "armbeamer",
-MR - "legmg",
+MR - "corhlt",
 SR - "armclaw",
 AD - "leginf",
+Eminate Juno Field (persistent Juno field radiates from station)- "armason",
 
 LRAA - "corflak",
-SRAA - "armcir"
+SRAA - "",
 
 Support = 
-"corrad",
-
-
+Radar & Vision - "corrad",
+Jammer - "corjamt",
+Shield - "corgate",
 
 
 Tier 3 Eco
-Early Metal -
-Late Metal - 
 
-Early Energy - 
-Late Energy - 
-Alt Energy - 
+Volatile Metal - "armmmkr",
+Safe Metal - "armuwmmm",
+
+Volatile Energy - "armafus",
+Safe Energy - "armfus",
+Alt Energy - "armwint2"
 
 Utilities = 
 
@@ -73,27 +76,27 @@ Utilities =
 
 Tier 3 Combat
 
-LR - "corscavdtm"
-MR - "armanni",
+LR - "corscavdtm",
+MR - "armhlt",
 SR - "corhllllt",
-AD - "legministarfall",
+AD - "legministarfall", or "armemp",
 
 OP
-LRAA - "armflak".
+LRAA - "armfflak",
 SRAA - "cormadsam",
 
 Support = 
-"armarad",
-
-
+Radar - "armarad",
+Jammer - "armveil",
+Shield - "armgate",
 
 Tier 4 Eco
-Early Metal -
-Late Metal - 
+Volatile Metal - "cormmkr",
+Safe Metal - "coruwmmkr",
 
-Early Energy - 
-Late Energy - 
-Alt Energy - 
+Volatile Energy - "armafus",
+Safe Energy - "corafus",
+Alt Energy - "armageo"
 
 Utilities = 
 
@@ -103,15 +106,18 @@ Utilities =
 
 Tier 4 Combat
 
-LR - "armannit3"
-MR - "corbuzz"
-SR - "armvulc"
+LR - "armannit3",
+MR - "corbuzz",
+SR - "armvulc",
 
-LRAA - 
-SRAA - 
+LRAA - "armflak",
+SRAA - "corscreamer",
 
 Support = 
-"corarad",
+
+Radar & vision - "corarad",
+Jammer - "corshroud",
+Shield - "armfgate",
 
 
 
