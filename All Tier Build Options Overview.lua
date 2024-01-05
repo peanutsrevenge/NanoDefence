@@ -7,7 +7,9 @@ Safe Energy - Arm Adv Solar "armadvsol",
 Alt Energy - Wind "corwin",
 
 Utilities = 
-
+Radar - "armrad",
+Jammer - "armjamt",
+Shield - "corfgate",
 
 
 
@@ -37,7 +39,9 @@ Safe Energy - Core Underwater Fusion "coruwfus"
 Alt Energy - Arm Prude Geothermal "armgmm",
 
 Utilities = 
-
+Radar & Vision - "corrad",
+Jammer - "corjamt",
+Shield - "corgate",
 
 
 
@@ -69,9 +73,9 @@ Safe Energy - "armfus",
 Alt Energy - "armwint2"
 
 Utilities = 
-
-
-
+Radar - "armarad",
+Jammer - "armveil",
+Shield - "armgate",
 
 
 Tier 3 Combat
@@ -79,6 +83,8 @@ Tier 3 Combat
 LR - "corscavdtm",
 MR - "armhlt",
 SR - "corhllllt",
+"Wolverines" - Arm Claw but really high health "made out of adamantium .. Wolverine"
+Basilica Massive Tachyon Sniper.  Huge Alpha, Huge Energy, moderate reload. "armbrtha",
 AD - "legministarfall", or "armemp",
 
 OP
@@ -99,16 +105,18 @@ Safe Energy - "corafus",
 Alt Energy - "armageo"
 
 Utilities = 
-
+Radar & vision - "corarad",
+Jammer - "corshroud",
+Shield - "armfgate",
 
 
 
 
 Tier 4 Combat
 
-LR - "armannit3",
-MR - "corbuzz",
-SR - "armvulc",
+ "armannit3",
+Constant firing "legbastion",
+Arm Vulcan Rapid firing Tachyon beams "armvulc",
 
 LRAA - "armflak",
 SRAA - "corscreamer",
@@ -118,6 +126,4 @@ Support =
 Radar & vision - "corarad",
 Jammer - "corshroud",
 Shield - "armfgate",
-
-
-
+Nuke - () "armsilo",
