@@ -1,7 +1,7 @@
 LR - Scav Missile DT "corscavdtm",
 MR -  Scav Claw "corscavdtl",
 SR - Scav Flamer "corscavdtf",
-Area Denial - "armjuno",
+Area Denial - Juno
 
 LRAA - "corflak"
 SRAA - "cormadsam",
