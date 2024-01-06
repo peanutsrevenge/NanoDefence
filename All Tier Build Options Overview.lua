@@ -1,10 +1,10 @@
 Tier 1 Eco
 Volatile Metal - Core T1 Converter "cormakr",
-Safe Metal - Core T1 Naval Converter "coruwmakr",
+Safe Metal - Core T1 Naval Converter "corfmkr",
 
 Volatile Energy - Arm (unrestricted) Geothernal "armgeo",
 Safe Energy - Arm Adv Solar "armadvsol",
-Alt Energy - Wind "corwin",
+Alt Energy - Limited to 1 "freefusion",
 
 Utilities = 
 Radar - "armrad",
@@ -44,7 +44,7 @@ Build Power
 
 Tier 2 Eco
 Volatile Metal - "armmakr",
-Safe Metal - "armuwmakr",
+Safe Metal - "armfmkr",
 
 Volatile Energy - Core Fusion "corfus",
 Safe Energy - Core Underwater Fusion "coruwfus"
@@ -87,7 +87,7 @@ Build Power
 
 Tier 3 Eco
 
-Volatile Metal - "armmmkr",
+Volatile Metal - "armmmmkr",
 Safe Metal - "armuwmmm",
 
 Volatile Energy - "armafus",
@@ -132,7 +132,7 @@ Build Power
 
 Tier 4 Eco
 Volatile Metal - "cormmkr",
-Safe Metal - "coruwmmkr",
+Safe Metal - "coruwmmm",
 
 Volatile Energy - "armafus",
 Safe Energy - "corafus",

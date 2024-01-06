@@ -1,3 +1,37 @@
+armnanotc = {
+    energycost = 4500,
+    metalcost = 200,
+    builddistance = 600,
+    buildtime = 5000,
+    health = 500,
+    workertime = 200,
+		},
+armnanotct2 = {
+    energycost = 45000,
+	metalcost = 1000,
+	builddistance = 1000,
+    buildtime = 21000,
+    health = 1500,
+	workertime = 1200,
+		},
+cornanotc = {
+    energycost = 3000,
+    metalcost = 500,
+    builddistance = 300,
+    buildtime = 10000,
+    health = 2000,
+    workertime = 400,
+		},
+cornanotc = {
+    energycost = 30000,
+	metalcost = 5000,
+	builddistance = 400,
+    buildtime = 40000,
+    health = 10000,
+	workertime = 2000,
+		},
+
+
 armrespawn = {
 	buildoptions = {
 		[1] = "cormex",

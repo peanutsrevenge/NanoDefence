@@ -1,5 +1,3 @@
-Tier 1 Combat
- 
 LR - Scav Missile DT "corscavdtm",
 MR -  Scav Claw "corscavdtl",
 SR - Scav Flamer "corscavdtf",
