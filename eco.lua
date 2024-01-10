@@ -145,7 +145,7 @@ armgmm = {
 	energystorage = 1500,
 	health = 13900,
 	customparams = {
-		geothermal = 0,
+		geothermal = 1,
 		techlevel = 2,
 	},
 },
