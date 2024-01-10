@@ -1321,7 +1321,7 @@ armbrtha = {
 	},
 },
 
--- Wide aoe medium damage, high firerate, long range
+-- Wide aoe light EMP stun, high firerate, long range
 
 legministarfall = {
 	acceleration = 0,
@@ -2536,7 +2536,7 @@ armvulc = {
         },
 },
 
--- Wide aoe, medium damage, medium fire rate missile disperser.
+-- Wide aoe, medium EMP stun, zero damage, medium rate missile disperser.
 
 legstarfall = {
 	maxacc = 0,
