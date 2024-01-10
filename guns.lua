@@ -355,7 +355,7 @@ armpb = {
 	},
 },
 
---  Wishing to make this Napalm mobile unit a structure. --
+--  Wishing to make this Napalm mobile unit a structure.
 
 leginf = {
 	acceleration = 0,
@@ -618,10 +618,10 @@ armcir = {
 
 cormwall = {
 	maxacc = 0,
-	energycost = 4800, --was 4850
-	metalcost = 1020, --was 485
+	energycost = 4800, 
+	metalcost = 1020, 
 	buildpic = "CORMWALL.DDS",
-	buildtime = 14000, -- was 12214
+	buildtime = 14000,
 	canrepeat = false,
 	category = "ALL NOTLAND WEAPON NOTSUB NOTSHIP NOTAIR NOTHOVER SURFACE EMPABLE",
 	collisionvolumeoffsets = "0 -3 0",
@@ -639,7 +639,7 @@ cormwall = {
 	idletime = 900,
 	levelground = false,
 	mass = 10000000000,
-	health = 5320, --was 4450, --1/2 of corfort
+	health = 5320,
 	maxslope = 24,
 	maxwaterdepth = 0,
 	nochasecategory = "MOBILE",
@@ -742,52 +742,6 @@ cormwall = {
 		},
 	},
 	weapondefs = {
-		-- banisher = {
-		-- 	areaofeffect = 128,
-		-- 	avoidfeature = false,
-		-- 	burnblow = true,
-		-- 	burst = 7,
-		-- 	burstrate = 0.3333,
-		-- 	cegtag = "missiletraillarge-red",
-		-- 	craterareaofeffect = 128,
-		-- 	craterboost = 0,
-		-- 	cratermult = 0,
-		-- 	edgeeffectiveness = 0.55,
-		-- 	explosiongenerator = "custom:genericshellexplosion-large-bomb",
-		-- 	firestarter = 20,
-		-- 	flighttime = 7.4,
-		-- 	impulseboost = 0.123,
-		-- 	impulsefactor = 0.123,
-		-- 	model = "banishermissile.s3o",
-		-- 	name = "Banisher",
-		-- 	noselfdamage = true,
-		-- 	range = 300,
-		-- 	reloadtime = 38, --18
-		-- 	smoketrail = true,
-		-- 	smokePeriod = 7, --7
-		-- 	smoketime = 24, --48
-		-- 	smokesize = 11.3,
-		-- 	smokecolor = 0.82,
-		-- 	smokeTrailCastShadow = false,
-		-- 	soundhit = "corban_b",
-		-- 	soundhitwet = "splsmed",
-		-- 	soundstart = "corban_a",
-		-- 	startvelocity = 240,
-		-- 	texture1 = "null",
-		-- 	texture2 = "railguntrail",
-		-- 	tolerance = 9000,
-		-- 	tracks = true,
-		-- 	trajectoryheight = 0.45,
-		-- 	turnrate = 60000,
-		-- 	turret = true,
-		-- 	weaponacceleration = 220,
-		-- 	weapontimer = 0.25,
-		-- 	weapontype = "StarburstLauncher",
-		-- 	weaponvelocity = 650,
-		-- 	damage = {
-		-- 		default = 750,
-		-- 	},
-		-- },
 		exp_heavyrocket = {
 			areaofeffect = 96,
 			avoidfeature = false,
@@ -809,7 +763,7 @@ cormwall = {
 			name = "CatapultRockets",
 			noselfdamage = true,
 			proximitypriority = -1,
-			range = 675, --1/2 of corcat
+			range = 675,
 			reloadtime = 15,
 			smoketrail = true,
 			smokePeriod = 4,
@@ -1397,7 +1351,6 @@ legministarfall = {
 	seismicsignature = 0,
 	selfdestructas = "hugeBuildingExplosionGenericSelfd",
 	sightdistance = 700,
-	--usepiececollisionvolumes = 1,
 	yardmap = "ooo ooo ooo",
 	customparams = {
 		usebuildinggrounddecal = false,
@@ -1679,7 +1632,6 @@ armemp = {
 			smokecolor = 0.9,
 			smokeTrailCastShadow = false,
 			soundhit = "emgpuls1",
-			--soundhitwet = "splslrg",
 			soundstart = "mismed1emp1",
 			stockpile = true,
 			stockpiletime = 65,
@@ -1853,8 +1805,8 @@ armflak = {
 			predictboost = 1,
 			range = 775,
 			reloadtime = 0.53333,
-			--size = 4.5,
-			--sizedecay = 0.08,
+			size = 4.5,
+			sizedecay = 0.08,
 			smoketrail = false,
 			soundhit = "flakhit2",
 			soundhitwet = "splslrg",
@@ -1867,7 +1819,7 @@ armflak = {
 			weapontype = "Cannon",
 			weaponvelocity = 1600,
 			damage = {
-				--default = 125,
+				default = 125,
 				vtol = 250,
 			},
 			rgbcolor = {
@@ -2371,7 +2323,7 @@ legbastion = {
 			avoidfriendly = true,
 			beamtime = 1,
 			camerashake = 0.1,
-			--collidefriendly = false,
+			collidefriendly = false,
 			corethickness = 0.4,
 			craterareaofeffect = 120,
 			craterboost = 0,
@@ -2397,7 +2349,7 @@ legbastion = {
 			soundstart = "heatray3",
 			soundstartvolume = 38,
 			soundtrigger = 1,
-			--sweepfire = true,
+			sweepfire = true,
 			targetmoveerror = 0.001,
 			thickness = 5.5,
 			turret = true,
@@ -2413,7 +2365,7 @@ legbastion = {
 			badtargetcategory = "VTOL GROUNDSCOUT",
 			def = "pineappleofdoom",
 			onlytargetcategory = "SURFACE",
-			--fastautoretargeting = true,
+			fastautoretargeting = true,
 		}
 	},
 },
