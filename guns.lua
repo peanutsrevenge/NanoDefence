@@ -1,3 +1,5 @@
+-- Long range tracking missiles Medium Yield, low firerate.
+
 corscavdtm = {
 	buildcostenergy = 1550,
 	buildcostmetal = 290,
@@ -29,7 +31,7 @@ corscavdtm = {
 		},
 	},
 },
-
+-- Medium Range Lightning.  Medium damage high fire rate.
 corscavdtl = {
 	buildcostenergy = 1600,
 	buildcostmetal = 340,
@@ -69,7 +71,7 @@ corscavdtl = {
 		},
 	},
 },
-
+-- Ultra short range Flameer.  High damage constant firerate, wide aoe.
 corscavdtf = {
 	buildcostenergy = 1550,
 	buildcostmetal = 290,
@@ -103,9 +105,7 @@ corscavdtf = {
 		},
 	},
 },
-
-
-
+-- Low tier narrow radius, single missile for perma field
 
 armjuno = {
 	buildcostenergy = 17000,
@@ -146,8 +146,7 @@ armjuno = {
 	},
 },
 
-
-
+-- Long range flak.  low damage wide area, medium rate of fire.
 corflak = {
 	airsightdistance = 1000,
 	buildcostenergy = 14000,
@@ -181,7 +180,7 @@ corflak = {
 	},
 },
 
-
+-- Short range medium damage tracking AA missiles
 cormadsam = {
 	airsightdistance = 850,
 	buildcostenergy = 6100,
@@ -212,7 +211,7 @@ cormadsam = {
 		},
 	},
 },
-
+-- Constant Fire laser, low damge, short-medium range.
 armbeamer = {
 	buildcostenergy = 1500,
 	buildcostmetal = 190,
@@ -264,6 +263,7 @@ armbeamer = {
 		},
 	},
 },
+-- Dual constant last, medium damage short range.
 
 corhlt = {
 	buildcostenergy = 4700,
@@ -313,7 +313,7 @@ corhlt = {
 	},
 },
 
--- Arm Pitbull Small Popup Gauss Canmon
+-- Arm Pitbull Small Popup Gauss Canmon.  Medium damge, rate of fire and range.
 armpb = {
 	buildcostenergy = 14000,
 	buildcostmetal = 680,
@@ -355,7 +355,7 @@ armpb = {
 	},
 },
 
-
+--  Wishing to make this Napalm mobile unit a structure. --
 
 leginf = {
 	acceleration = 0,
@@ -379,21 +379,13 @@ leginf = {
 	leavetracks = true,
 	mass = 5001,
 	maxdamage = 3650,
-	--maxreversevelocity = 0.762,
+	maxreversevelocity = 0,
 	maxslope = 14,
 	maxvelocity = 1.25,
 	maxwaterdepth = 15,
 	movementclass = "HTANK4",
-	nochasecategory = "VTOL",
-	objectname = "Units/leginf.s3o",
-	script = "Units/LEGINF.cob",
-	seismicsignature = 0,
 	selfdestructas = "hugeExplosionGenericSelfd",
 	sightdistance = 351,
-	trackoffset = -8,
-	trackstrength = 8,
-	tracktype = "corwidetracks",
-	trackwidth = 50,
 	turninplace = true,
 	turninplaceanglelimit = 90,
 	turninplacespeedlimit = 0.95832,
@@ -405,8 +397,6 @@ leginf = {
 		buildinggrounddecalsizex = 2,
 		buildinggrounddecaldecayspeed = 30,
 		unitgroup = 'weapon',
-		model_author = "Mr Bob",
-		normaltex = "unittextures/cor_normal.dds",
 		subfolder = "corvehicles/t2",
 		techlevel = 2,
 	},
@@ -442,42 +432,6 @@ leginf = {
 				vtol = 10,
 			},
 		},
-	},
-},
-
---  Underwater Sonar, will be advanced vision ---
-
-armason = {
-	acceleration = 0,
-	activatewhenbuilt = true,
-	brakerate = 0,
-	buildangle = 8192,
-	buildcostenergy = 2600,
-	buildcostmetal = 170,
-	buildpic = "ARMASON.DDS",
-	buildtime = 6152,
-	canattack = false,
-	canrepeat = false,
-	category = "ALL UNDERWATER NOTLAND NOTSUB NOWEAPON NOTSHIP NOTAIR NOTHOVER SURFACE EMPABLE",
-	corpse = "DEAD",
-	damagemodifier = 0.46,
-	explodeas = "mediumBuildingexplosiongeneric-uw",
-	footprintx = 4,
-	footprintz = 4,
-	icontype = "building",
-	idleautoheal = 5,
-	idletime = 1800,
-	maxdamage = 2350,
-	maxslope = 10,
-	minwaterdepth = 0,
-	maxwaterdeapth = 24
-	objectname = "Units/ARMASON.s3o",
-	onoffable = true,
-	sightdistance = 2500,
-	sonardistance = 0,
-	customparams = {
-		subfolder = "armbuildings/seautil",
-		techlevel = 2,
 	},
 },
 
@@ -660,6 +614,7 @@ armcir = {
 	},
 },
 
+-- Tracking Mssile Launcher, medium damage, long range, high rate of fire.
 
 cormwall = {
 	maxacc = 0,
@@ -890,7 +845,7 @@ cormwall = {
 	},
 },
 
-
+-- Medium range horizontal tracking Mssile launcher, high damage
 
 corvipe = {
 	maxacc = 0,
@@ -1064,7 +1019,7 @@ corvipe = {
 	},
 },
 
-
+-- Reinforced Popup lightning turret, medium range high damage, medium firerate
 
 
 armclaw = {
@@ -1247,7 +1202,7 @@ armclaw = {
 },
 
 
-
+--  Giant railgun.  high velocity massive alpha damage, costs metal to make ammo, low firerate.
 
 armbrtha = {
 	maxacc = 0,
@@ -1412,8 +1367,7 @@ armbrtha = {
 	},
 },
 
-
-
+-- Wide aoe medium damage, high firerate, long range
 
 legministarfall = {
 	acceleration = 0,
@@ -1578,7 +1532,7 @@ legministarfall = {
 },
 
 
-
+-- Long range EMP missile launcher, near fast enough to keep something stunned, but high energy cost.
 
 armemp = {
 	maxacc = 0,
@@ -1753,7 +1707,7 @@ armemp = {
 },
 
 
-
+-- Very rapid fire flak, long range medium aoe, medium damage.
 
 
 armflak = {
@@ -1932,7 +1886,7 @@ armflak = {
 	},
 },
 
-
+-- High damage, short range anti air missiles, medium firerate.
 
 
 armmercury = {
@@ -2110,6 +2064,8 @@ armmercury = {
     },
 },
 
+-- Massive alpha strike, long range Tachyon, medium reload.
+
 armannit3 = {
 	maxacc = 0,
 	activatewhenbuilt = true,
@@ -2285,7 +2241,7 @@ armannit3 = {
 
 
 
-
+-- Constant high damage heatray beam, short range
 
 
 legbastion = {
@@ -2462,7 +2418,7 @@ legbastion = {
 	},
 },
 
-
+-- Rapidfire Ultra high damage and long range railgun.  Huge metal cost.
 
 armvulc = {
 	maxacc = 0,
@@ -2628,7 +2584,7 @@ armvulc = {
         },
 },
 
-
+-- Wide aoe, medium damage, medium fire rate missile disperser.
 
 legstarfall = {
 	maxacc = 0,
@@ -2795,7 +2751,7 @@ legstarfall = {
 	},
 },
 
-
+-- Ultra high damage, medium range and damge anti air missile launcher.
 corscreamer = {
 	maxacc = 0,
 	activatewhenbuilt = true,
@@ -2972,7 +2928,7 @@ corscreamer = {
 },
 
 
-
+-- Medium range, Rapid fire acid laumcher, large lasting aoe.
 
 corbuzz = {
 	sfxtypes = {
