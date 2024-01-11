@@ -1,0 +1,13 @@
+1) Making armrespawn & correspawn buildable [on land].
+
+2) Assigning appropriate build icon for resource generators (and preferably name as well)
+
+3) Making more neval units available would be excellent (converters, nanos, plasma deflectors, [cor] fusion).
+
+4) Making a geo or two buildable anywhere (with lower energy output than on geospot)
+
+5) Renaming lootboxnanos.
+
+6) Renaming of Core Radars to include vision/cameras.
+
+7) Enabling shields on some select units (Some energy production and Bastion (at present))
