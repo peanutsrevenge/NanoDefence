@@ -8,7 +8,7 @@ cormakr = {
 	selfdestructas = "metalmakerSelfd",
 	customparams = {
 		energyconv_capacity = 100,
-		energyconv_efficiency = 1/70,
+		energyconv_efficiency = 1/75,
 	},
 },
 armmakr = {
@@ -51,7 +51,7 @@ armmmkr = {
 	},
 },
 
-		------------------ Basic Energy -----------------------------
+		------------------ Safe Energy -----------------------------
 
 coradvsol = {
 	energycost = 1000,
@@ -61,6 +61,53 @@ coradvsol = {
 	energystorage = 100,
 	health = 1200,
 },
+lootboxplatinum = {
+	energycost = 25000,
+	metalcost = 375,
+	buildtime = 1000,
+	cantbetransported = false,
+	capturable = false,
+	energymake = 400,
+	explodeas = "lootboxExplosion1",
+	icontype = "lootbox",
+	health = 33500,
+	speed = 0,
+	metalmake = 20,
+	movementclass = "HOVER3",
+	movestate = 0,
+	selfdestructas = "lootboxExplosion1",
+	selfdestructcountdown = 9,
+	transportbyenemy = false,
+	unitname = "Experimental Safe Fusion Reactor",
+	reclaimable = true,
+	customparams = {
+		techlevel = 2,
+	},
+},
+lootboxgold = {
+	energycost = 25000,
+	metalcost = 375,
+	buildtime = 1000,
+	cantbetransported = false,
+	capturable = false,
+	energymake = 400,
+	explodeas = "lootboxExplosion1",
+	icontype = "lootbox",
+	health = 33500,
+	speed = 0,
+	metalmake = 20,
+	movementclass = "HOVER3",
+	movestate = 0,
+	selfdestructas = "lootboxExplosion1",
+	selfdestructcountdown = 9,
+	transportbyenemy = false,
+	unitname = "Safe Fusion Reactor",
+	reclaimable = true,
+	customparams = {
+		techlevel = 3,
+	},
+},
+
 armfus = {
 	energycost = 5500,
 	metalcost = 2000,
@@ -69,9 +116,28 @@ armfus = {
 	energystorage = 5000,
 	health = 7000,
 	damagemodifier = 0.5,
+	footprintx = 6,
+	footprintz = 3,
 	customparams = {
-		techlevel = 2,
+		techlevel = 4,
 	},
+},
+
+
+		------------------ Volatile Energy -----------------------------
+
+freefusion = {
+    unitrestricted = 10,
+	energycost = 2000,
+	metalcost = 200,
+	buildtime = 100,
+	energymake = 1000,
+	energystorage = 10000,
+	metalmake = 10,
+	explodeas = "fusionExplosion",
+	footprintx = 6,
+	footprintz = 6,
+	health = 100,
 },
 corfus = {
 	energycost = 80500,
@@ -86,14 +152,14 @@ corfus = {
 	customparams = {
 		buildinggrounddecalsizey = 8,
 		buildinggrounddecalsizex = 8,
-		techlevel = 3,
+		techlevel = 2,
 	},
 },
 armafus = {
 	energycost = 300500,
 	metalcost = 6000,
 	buildtime = 35500,
-	energymake = 50500,
+	energymake = 70500,
 	energystorage = 100000,
 	explodeas = "advancedFusionExplosion",
 	footprintx = 7,
@@ -104,58 +170,51 @@ armafus = {
 	customparams = {
 		buildinggrounddecalsizey = 9,
 		buildinggrounddecalsizex = 9,
-		techlevel = 4,
+		techlevel = 3,
 	},
 },
-
-
-		------------------ Optional Energy -----------------------------
-
-freefusion = {
-    unitrestricted = 1,
-	energycost = 100,
-	metalcost = 100,
-	buildtime = 10,
-	energymake = 1000,
-	energystorage = 10000,
-	explodeas = "fusionExplosion",
-	footprintx = 5,
-	footprintz = 5,
-	health = 1000,
+lootboxbronze = {
+	energycost = 25000,
+	metalcost = 375,
+	buildtime = 1000,
+	cantbetransported = false,
+	capturable = false,
+	energymake = 400,
+	explodeas = "lootboxExplosion1",
+	icontype = "lootbox",
+	health = 33500,
+	speed = 0,
+	metalmake = 20,
+	movementclass = "HOVER3",
+	movestate = 0,
+	selfdestructas = "lootboxExplosion1",
+	selfdestructcountdown = 9,
+	transportbyenemy = false,
+	unitname = "Micro Singularity Manipulator",
+	reclaimable = true,
+	customparams = {
+	techlevel = 4,
 },
-armgeo = {
+},
+
+ -- Alternative Energy ----------------
+ armgeo = {
 	energycost = 13000,
 	metalcost = 560,
 	buildtime = 13100,
 	energymake = 300,
 	energystorage = 1000,
 	health = 1940,
-	yardmap = "h cbobbobc boboobob obbggbbo bogbbgob bogbbgob obbggbbo boboobob cbobbobc",
-	customparams = {
-		cvbuildable = true,
-		geothermal = 0,
-	},
 },
-armwint2 = {
+ armwint2 = {
 	energycost = 1750,
-	metalcost = 370,
-	buildtime = 16000,
+	metalcost = 200,
+	buildtime = 10000,
 	energystorage = 5,
 	health = 1960,
 	windgenerator = 500,
 	customparams = {
 		energymultiplier = 10,
-		techlevel = 2,
-	},
-},
-armgmm = {
-	energycost = 25000,
-	metalcost = 1150,
-	energymake = 750,
-	energystorage = 1500,
-	health = 13900,
-	customparams = {
-		geothermal = 1,
 		techlevel = 2,
 	},
 },
@@ -165,20 +224,16 @@ armageo = {
 	buildtime = 33300,
 	energymake = 1250,
 	energystorage = 12000,
-	footprintx = 4,
-	footprintz = 4,
 	health = 3600,
 	customparams = {
-		buildinggrounddecalsizey = 11,
-		buildinggrounddecalsizex = 11,
-		geothermal = 0,
+		energymultiplier = 10,
 		techlevel = 3,
 	},
 },
 corafus = {
-	energycost = 320000,
-	metalcost = 30000,
-	buildtime = 500500,
+	energycost = 150500,
+	metalcost = 9000,
+	buildtime = 40500,
 	damagemodifier = 0.50,
 	energymake = 40500,
 	energystorage = 100000,
