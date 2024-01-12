@@ -15,7 +15,7 @@
 -- Volatile E Store = armestor
 -- Volatile M Store = armmstor
 -- Wall = corfort
--- Shield = corgate 
+-- Small Shield = corgate 
 -- Anti Nuke = corfmd
 
 --  Tier 3 -------
@@ -30,10 +30,10 @@
 -- Tier 4 ------
 -- Radar & Vision = corarad
 -- Jammer = corshroud
--- Safe E Store = armuwadves
--- Safe M Store = armuwadvms
+-- Volatile E Store = armuwadves
+-- Volatile M Store = armuwadvms
 -- Wall = armfort
--- Shield = armgate
+-- Large Shield = armgate
 -- Anti Nuke = armamd
 
 
