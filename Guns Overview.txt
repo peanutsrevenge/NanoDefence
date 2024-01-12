@@ -1,0 +1,20 @@
+Low Energy, High metal Defences to be possible (Very high skill ceiling)
+High energy, low metal Defences to be possible (resource intensive, volatile)
+Intention to have Long, medium, short and AOE options for all catagories, even if they're not optimal except for theme builds.
+
+Constant/Pulsing lasers (beamer, Pulsar, Epic Pulsar, Bastion, Brtha)
+
+Rapid Lasers (LLT, HLLT, HLLLLT, HLT, Bulwark and Epic Bulwark)
+
+Rapid "Metal" rounds (LegMG, corGaat, minibuzz, buzz)
+
+Heavy Metal (Pitbull, Both T1 plasma "Guardian, Punisher", corint, minicalmity, calamity)
+
+AOE (Area Control) corscavdtf, corflame, Both T2 Plasma (Toaster, Amubusher), leginf, Both Junos, ministarfall, starfall, armEMP.
+
+Missile (energy/metal hybrid) - corscavdtm, cormwall, corvipe, catalyst, armsilo, corsilo, 
+
+Bio Weapons (raptors acid) - TBD
+
+Mines - Need to make them viable again.
+
