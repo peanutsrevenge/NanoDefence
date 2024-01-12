@@ -1,6 +1,10 @@
 VERY EARLY stages of development as of early Jan 2024.
+---
+As the Raptor influence swept across the universe, the eternally waring machine factions were forcing to evolve, unite and fight for their continued existance.  
+They have all but purged locomotion from their design to enhance their defensive capabilities, requiring less land to fuel their assorted weaponry, incorporating the bio-weaponry of their Raptor foe.
+---
 
-Implimenting a significant reconfiguration and rebalancing of Base building, eco and defencive units to better suit the desires and demands of Raptor play.
+Implimenting a significant reconfiguration and rebalancing of Base building, eco and defensive units to better suited to the desires and demands of Raptor play.
 Due to the use of Scav and Naval units for the player(s) to use on land, this is not suitable for games against Scav AI or on map where players will build in the water.
 
 Additional Technology Tiers are introduced to enable the players to evolve the layout and configuaration of their eco and defences throughout games, rather than simply building more and more of the same things.
