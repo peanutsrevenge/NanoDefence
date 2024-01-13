@@ -272,4 +272,3 @@ corafus = {
 		techlevel = 4,
 	},
 },
-}
