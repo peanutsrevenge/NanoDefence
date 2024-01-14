@@ -415,7 +415,7 @@ corhllllt = {
 	},
 },
 
-    -- Core Bulwark
+    -- Core Bulwark - Includes EMP 
 cordoom = {
 	maxacc = 0,
 	activatewhenbuilt = true,
@@ -484,6 +484,8 @@ cordoom = {
 			laserflaresize = 8.8,
 			name = "Long-range g2g tachyon accelerator",
 			noselfdamage = true,
+			paralyzer = true,--false
+			paralyzetime = 5,
 			range = 950,
 			reloadtime = 6,
 			rgbcolor = "0 0 1",

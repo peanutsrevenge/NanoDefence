@@ -299,7 +299,7 @@ armannit3 = {
 },
 
 
-    -- Core Epic Bulwark
+    -- Core Epic Bulwark - Includes EMP
 
 cordoomt3 = {
 	maxacc = 0,
@@ -411,6 +411,8 @@ cordoomt3 = {
 			laserflaresize = 8.8,
 			name = "Long-range g2g tachyon accelerator",
 			noselfdamage = true,
+			paralyzer = true,--false
+			paralyzetime = 5,
 			proximitypriority = 0,
 			range = 950,
 			reloadtime = 6,
