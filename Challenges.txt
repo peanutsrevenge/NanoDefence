@@ -1,13 +1,18 @@
-1) Making armrespawn & correspawn buildable [on land].
+Create and merge new and replacement buildpics (dds extension)
 
-2) Assigning appropriate build icon for resource generators (and preferably name as well)
+Making armrespawn & correspawn buildable [on land].
 
-3) Making more neval units available would be excellent (converters, nanos, plasma deflectors, [cor] fusion).
+Assigning appropriate build icon for resource generators (and preferably name as well)
 
-4) Making a geo or two buildable anywhere (with lower energy output than on geospot)
+Making more neval units available would be excellent (converters, nanos, plasma deflectors, [cor] fusion).
 
-5) Renaming lootboxnanos.
+Making a geo or two buildable anywhere (with lower energy output than on geospot)
 
-6) Renaming of Core Radars to include vision/cameras.
+Renaming lootboxnanos.
 
-7) Enabling shields on some select units (Some energy production and Bastion (at present))
+Renaming of Core Radars to include vision/cameras.
+
+Enabling shields on some select units (Some energy production and Bastion (at present))
+
+White, Red, Green & blue Builder Turrets of 4 sizes.  Having RGB for Core, Legion & Arm, would provide more branching for weapon catagories (restricting choice for defensive designs) and imply (heavily if weapons are split appropiately), continuing divides among the factions, even with the new found unity. White being for the eco builders which provide the ability to tech up and down.
+
