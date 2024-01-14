@@ -147,7 +147,7 @@ armhlt = {
 	},
 },
 
--- Massive alpha strike, long range Tachyon, medium reload.
+-- Epic Pulsar - Includes EMP
 
 armannit3 = {
 	energycost = 450000,
@@ -187,6 +187,8 @@ armannit3 = {
 			laserflaresize = 8,
 			name = "Heavy long-range g2g tachyon accelerator beam",
 			noselfdamage = true,
+			paralyzer = true,--false
+			paralyzetime = 5,
 			range = 1800,
 			reloadtime = 15,
 			rgbcolor = "0 0 1",

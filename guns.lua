@@ -1,4 +1,4 @@
--- Ultra short range Flameer.  High damage constant firerate, wide aoe.
+-- Reinforced Scav Flammer 
 corscavdtf = {
 	buildcostenergy = 1550,
 	buildcostmetal = 290,
@@ -36,7 +36,7 @@ corscavdtf = {
 
 
 
--- Reinforced Popup lightning turret, medium range high damage, medium firerate
+-- Arm Lightning - Includes EMP
 
 
 armclaw = {
@@ -68,6 +68,8 @@ armclaw = {
 			intensity = 24,
 			name = "Close-quarters g2g lightning turret",
 			noselfdamage = true,
+			paralyzer = true,--false
+			paralyzetime = 5,
 			range = 440,
 			reloadtime = 1.13333,
 			rgbcolor = "0.5 0.5 1",
@@ -100,7 +102,7 @@ armclaw = {
 		},
 	},
 },
--- Medium Range Lightning.  Medium damage high fire rate.
+-- Recinforced Scav Lightning - Includes EMP
 corscavdtl = {
 	buildcostenergy = 1600,
 	buildcostmetal = 340,
@@ -508,15 +510,6 @@ armcir = {
 		},
 	},
 },
-
-
-
-
-
-
-
-
-
 
 -- Wide aoe light EMP stun, high firerate, long range
 
