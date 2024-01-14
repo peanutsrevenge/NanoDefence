@@ -4,7 +4,9 @@ Intention to have Long, medium, short and AOE options for all catagories, even i
 
 Constant/Pulsing lasers (beamer, Pulsar, Epic Pulsar, Bastion, Brtha)
 
-Rapid Lasers (LLT, HLLT, HLLLLT, HLT, Bulwark and Epic Bulwark)
+Rapid Lasers (core LLT, CorHLLT, HLLLLT, HLT, Bulwark and Epic Bulwark)
+
+Sniper Lasers (armLLT, Arm HLT, pulsar, something)
 
 Rapid "Metal" rounds (LegMG, corGaat, minibuzz, buzz)
 
@@ -14,7 +16,7 @@ AOE (Area Control) corscavdtf, corflame, Both T2 Plasma (Toaster, Amubusher), le
 
 Missile (energy/metal hybrid) - corscavdtm, cormwall, corvipe, catalyst, armsilo, corsilo, 
 
-Bio Weapons (raptors acid) - TBD
+Bio Weapons (raptors acid) - Armbotrail (unit cannon) TBD
 
 Mines - Need to make them viable again.
 
