@@ -3,17 +3,11 @@
 -- armanni Pulsar
 -- cordoomt3 Epic Bulwark
 
-
-
 corllt = {
 	energycost = 700,
 	metalcost = 90,
-	buildtime = 2720,
 	health = 650,
-	sightdistance = 494,
-	customparams = {
-		techlevel = 1,
-		},
+	sightdistance = 0,
 	weapondefs = {
 		cor_lightlaser = {
 			areaofeffect = 12,
@@ -39,9 +33,6 @@ corllt = {
 		},
 	},
 },
-
-    --Arm LLT
-
 armllt = {
 	energycost = 680,
 	metalcost = 85,
@@ -75,8 +66,6 @@ armllt = {
 		},
 	},
 },
-    -- Arm Epic Pulsar
-
 armannit3 = {
 	energycost = 450000,
 	metalcost = 13500,
@@ -112,10 +101,6 @@ armannit3 = {
 		},
 	},
 },
-
-
-    -- Core Epic Bulwark - Includes EMP
-
 cordoomt3 = {
 	energycost = 400000,
 	metalcost = 12000,

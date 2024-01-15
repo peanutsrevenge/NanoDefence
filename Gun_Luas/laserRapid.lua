@@ -3,71 +3,47 @@
 -- corhllllt Core Quad Laser
 -- cordoom Bulwark
 
---Core Dual Laser
 corhllt = {
 	energycost = 1750,
 	metalcost = 195,
-	buildtime = 5440,
 	health = 1670,
-	sightdistance = 475,
+	sightdistance = 0,
 	customparams = {
 		techlevel = 1,
 	},
 	weapondefs = {
 		hllt_bottom = {
-			beamtime = 0.12,
-			corethickness = 0.175,
-			edgeeffectiveness = 0.15,
 			energypershot = 15,
-			explosiongenerator = "custom:laserhit-small-red",
-			firestarter = 100,
-			impactonly = 1,
-			laserflaresize = 7.7,
-			name = "Close-quarters light g2g laser",
+			explosiongenerator = "custom:laserhit-small-green",
 			range = 400,
 			reloadtime = 0.46667,
-			rgbcolor = "1 0 0",
-			thickness = 2,
+			rgbcolor = "0 1 0",
 			damage = {
-				commanders = 112.5,
 				default = 75,
-				vtol = 5,
 			},
 		},
 		hllt_top = {
-			areaofeffect = 12,
-			beamtime = 0.12,
-			corethickness = 0.175,
-			edgeeffectiveness = 0.15,
-			energypershot = 15,
-			explosiongenerator = "custom:laserhit-small-red",
-			firestarter = 30,
-			impactonly = 1,
-			laserflaresize = 8.8,
-			name = "Close-quarters light g2g laser",
-			range = 480,
-			reloadtime = 0.46667,
-			rgbcolor = "1 0 0",
-			thickness = 2,
-			damage = {
-				commanders = 112.5,
-				default = 75,
-				vtol = 5,
+				energypershot = 15,
+				explosiongenerator = "custom:laserhit-small-green",
+				range = 400,
+				reloadtime = 0.46667,
+				rgbcolor = "0 1 0",
+				damage = {
+					default = 75,
+				},
 			},
-		},
 	},
 },
-
-
-   -- Triple constant last, medium damage short range.
-
-   corhlt = {
+corhlt = {
 	buildcostenergy = 4700,
 	buildcostmetal = 480,
 	buildtime = 12650,
 	energystorage = 200,
 	maxdamage = 2750,
-	sightdistance = 455,
+	sightdistance = 0,
+	customparams = {
+		techlevel = 2,
+	},
 	weapondefs = {
 		cor_laserh1 = {
 			areaofeffect = 14,
@@ -76,21 +52,12 @@ corhllt = {
 			edgeeffectiveness = 0.15,
 			energypershot = 50,
 			explosiongenerator = "custom:laserhit-medium-green",
-			laserflaresize = 8.8,
+			laserflaresize = 10, --8.8
 			name = "High energy g2g laser",
-			range = 620,
-			reloadtime = 1.2,
+			range = 500, --620
+			reloadtime = 0.6,
 			rgbcolor = "0 1 0",
-			soundhitdry = "",
-			soundhitwet = "sizzle",
-			soundstart = "Lasrmas2",
-			soundtrigger = 1,
-			targetmoveerror = 0.2,
 			thickness = 2.7,
-			tolerance = 10000,
-			turret = true,
-			weapontype = "BeamLaser",
-			weaponvelocity = 2250,
 			damage = {
 				bombers = 35,
 				default = 261,
@@ -100,62 +67,54 @@ corhllt = {
 		},
 	},
 },
-
--- Core Quad Laser
 corhllllt = {
 	energycost = 7000,
 	metalcost = 300,
 	buildtime = 8800,
 	health = 1670,
-	sightdistance = 475,
+	sightdistance = 0,
 	customparams = {
 		techlevel = 2,
 	},
 	weapondefs = {
 		hllt_1 = {
+			rgbcolor = "0 1 0",
 			energypershot = 15,
 			range = 475,
 			reloadtime = 0.2,
 			damage = {
-				commanders = 100,
 				default = 75,
-				vtol = 5,
 			},
 		},
 		hllt_2 = {
+			rgbcolor = "0 1 0",
 			energypershot = 15,
 			range = 475,
 			reloadtime = 0.2,
 			damage = {
-				commanders = 100,
 				default = 75,
-				vtol = 5,
 			},
 		},
 		hllt_3 = {
+			rgbcolor = "0 1 0",
 			energypershot = 15,
 			range = 475,
 			reloadtime = 0.2,
 			damage = {
-				commanders = 100,
 				default = 75,
-				vtol = 5,
 			},
 		},
 		hllt_4 = {
+			rgbcolor = "0 1 0",
 			energypershot = 15,
 			range = 475,
 			reloadtime = 0.2,
 			damage = {
-				commanders = 100,
 				default = 75,
-				vtol = 5,
 			},
 		},
 	},
 },
-
-    -- Core Bulwark - Includes EMP 
 cordoom = {
 	energycost = 37000,
 	metalcost = 3000,
@@ -181,8 +140,8 @@ cordoom = {
 			name = "Long-range paralyzing tachyon accelerator",
 			paralyzer = true,--false
 			paralyzetime = 5,
-			range = 950,
-			reloadtime = 6,
+			range = 750,
+			reloadtime = 3,
 			rgbcolor = "0 0 1",
 			thickness = 5.5,
 			damage = {
@@ -200,6 +159,7 @@ cordoom = {
 			},
 		},
 		doomsday_red_laser = {
+			rgbcolor = "0 1 0",
 			energypershot = 5,
 			range = 370,
 			reloadtime = 0.26667,

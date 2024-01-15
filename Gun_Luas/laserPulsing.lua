@@ -3,15 +3,13 @@
 -- armannit3 Epic Pulsar
 -- legbastion 
 
--- Constant Fire laser, low damge, short-medium range.
 armbeamer = {
 	buildcostenergy = 1500,
 	buildcostmetal = 190,
-	buildtime = 5324,
 	cantbetransported = false,
 	mass = 7500,
 	maxdamage = 1430,
-	sightdistance = 475,
+	sightdistance = 0,
 	weapondefs = {
 		armbeamer_weapon = {
 			areaofeffect = 8,
@@ -21,23 +19,12 @@ armbeamer = {
 			corethickness = 0.233,
 			edgeeffectiveness = 0.15,
 			energypershot = 6,
-			explosiongenerator = "custom:laserhit-beamer",
 			firestarter = 30,
 			laserflaresize = 9.35,
-			name = "Anti-swarm constant wave g2g laser",
 			range = 480,
 			reloadtime = 0.1,
 			rgbcolor = "0 0 1",
-			soundhitdry = "",
-			soundhitwet = "sizzle",
-			soundstart = "beamershot2",
-			soundtrigger = 1,
-			targetmoveerror = 0.05,
 			thickness = 2.4,
-			tolerance = 10000,
-			turret = true,
-			weapontype = "BeamLaser",
-			weaponvelocity = 1000,
 			damage = {
 				bombers = 2,
 				default = 26.6,
@@ -47,7 +34,6 @@ armbeamer = {
 		},
 	},
 },
-
 armhlt = {
 	energycost = 4700,
 	metalcost = 440,
@@ -64,7 +50,6 @@ armhlt = {
 			corethickness = 0.25,
 			edgeeffectiveness = 0.15,
 			energypershot = 75,
-			explosiongenerator = "custom:laserhit-medium-green",
 			firestarter = 90,
 			laserflaresize = 9.9,
 			name = "Heavy g2g high energy laser",
@@ -80,9 +65,6 @@ armhlt = {
 		},
 	},
 },
-
--- Epic Pulsar - Includes EMP
-
 armannit3 = {
 	energycost = 450000,
 	metalcost = 13500,
@@ -126,27 +108,19 @@ armannit3 = {
 		},
 	},
 },
-
--- Constant high damage heatray beam, short range
-
 legbastion = {
-	buildangle = 4096,
 	energycost = 58000,
 	metalcost = 4200,
 	buildtime = 79000,
 	damagemodifier = 0.25,
 	energystorage = 1000,
-	explodeas = "largeBuildingexplosiongeneric",
-	losemitheight = 80,
 	health = 15000,
 	onoffable = true,
-	radardistance = 1200,
-	radaremitheight = 80,
-	selfdestructas = "largeBuildingExplosionGenericSelfd",
-	sightdistance = 780,
+	radardistance = 0,
+	sightdistance = 0,
 	customparams = {
 		maxrange = 1125,
-		techlevel = 2,
+		techlevel = 4,
 	},
 	weapondefs = {
 		pineappleofdoom = {
