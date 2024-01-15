@@ -1,7 +1,7 @@
 -- armguard Arm T1 Plasma
 -- corpun Core T1 Plasma
---  Arm T2 Plasma
--- Core T2 Plasma
+-- armamb Arm T2 Plasma
+-- cortoast Core T2 Plasma
 
 
     -- Arm T1 Plasma

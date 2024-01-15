@@ -1,10 +1,16 @@
-Volatile Metal - Core T1 Converter "cormakr",
-Safe Metal - Core T1 Naval Converter "corfmkr",
+		-- Metal 
+-- Tier 1 & Safe cormakr
+-- Tier 2 & Volatile armmakr
+-- Tier 3 & Safe cormmkr
+-- Tier 4 & Volatile armmmkr
 
-Volatile Energy - Arm (unrestricted) Geothernal "armgeo",
-Safe Energy - Core Adv Solar "coradvsol",
-Alt Energy - Limited to 1 "freefusion",
+		--Energy
+-- Safe by Tier armadvsol , lootboxplatinum , lootboxgold , armfus
+-- Volatile by Tier freefusion , corfus , armafus , lootboxbronze
+-- Alternative by Tier armgeo , armgmm , armageo , corafus
 
+		-- Metal 
+-- Tier 1 & Safe cormakr
 
 cormakr = {
 	maxacc = 0,
@@ -78,42 +84,50 @@ cormakr = {
 },
 
 
-corfmkr = {
+-- Tier 2 & Volatile armmakr
+
+armmakr = {
 	maxacc = 0,
 	activatewhenbuilt = true,
 	maxdec = 0,
 	buildangle = 8192,
-	energycost = 2500,
+	energycost = 1150,
 	metalcost = 1,
-	buildpic = "CORFMKR.DDS",
-	buildtime = 2680,
+	buildpic = "ARMMAKR.DDS",
+	buildtime = 2600,
 	canrepeat = false,
 	category = "ALL NOTLAND NOTSUB NOWEAPON NOTSHIP NOTAIR NOTHOVER SURFACE EMPABLE",
-	explodeas = "largeBuildingExplosionGeneric",
+	collisionvolumeoffsets = "0 -3 0",
+	collisionvolumescales = "40 40 40",
+	collisionvolumetype = "CYLY",
+	explodeas = "metalmaker",
 	footprintx = 3,
 	footprintz = 3,
 	icontype = "building",
 	idleautoheal = 5,
 	idletime = 1800,
-	health = 133,
+	health = 167,
 	maxslope = 10,
-	minwaterdepth = 11,
-	objectname = "Units/CORFMKR.s3o",
-	script = "Units/CORFMKR.cob",
+	maxwaterdepth = 0,
+	objectname = "Units/ARMMAKR.s3o",
+	script = "Units/ARMMAKR.cob",
 	seismicsignature = 0,
-	selfdestructas = "largeBuildingExplosionGenericSelfd",
+	selfdestructas = "metalmakerSelfd",
 	sightdistance = 273,
-	waterline = 3.5,
-	yardmap = "wwwwwwwww",
+	yardmap = "ooooooooo",
 	customparams = {
+		usebuildinggrounddecal = true,
+		buildinggrounddecaltype = "decals/armmakr_aoplane.dds",
+		buildinggrounddecalsizey = 5,
+		buildinggrounddecalsizex = 5,
+		buildinggrounddecaldecayspeed = 30,
 		unitgroup = 'metal',
 		energyconv_capacity = 70,
-		energyconv_efficiency = 1/64,
-		model_author = "Mr Bob",
-		normaltex = "unittextures/cor_normal.dds",
+		energyconv_efficiency = 1/70,
+		normaltex = "unittextures/Arm_normal.dds",
 		removestop = true,
 		removewait = true,
-		subfolder = "corbuildings/seaeconomy",
+		subfolder = "armbuildings/landeconomy",
 	},
 	sfxtypes = {
 		pieceexplosiongenerators = {
@@ -137,126 +151,14 @@ corfmkr = {
 			[6] = "count1",
 		},
 		select = {
-			[1] = "metlon2",
+			[1] = "metlon1",
 		},
 	},
 },
 
 
 
-armgeo = {
-	maxacc = 0,
-	activatewhenbuilt = true,
-	maxdec = 0,
-	buildangle = 2048,
-	energycost = 13000,
-	metalcost = 560,
-	buildpic = "ARMGEO.DDS",
-	buildtime = 13100,
-	canrepeat = false,
-	category = "ALL NOTLAND NOTSUB NOWEAPON NOTSHIP NOTAIR NOTHOVER SURFACE EMPABLE",
-	collisionvolumeoffsets = "0 -4 0",
-	collisionvolumescales = "60 70 60",
-	collisionvolumetype = "Box",
-	corpse = "dead",
-	energymake = 300,
-	energystorage = 1000,
-	explodeas = "geo",
-	footprintx = 4,
-	footprintz = 4,
-	icontype = "building",
-	idleautoheal = 5,
-	idletime = 1800,
-	health = 1940,
-	maxslope = 20,
-	maxwaterdepth = 5,
-	objectname = "Units/ARMGEO.s3o",
-	script = "Units/ARMGEO.cob",
-	seismicsignature = 0,
-	selfdestructas = "geo",
-	sightdistance = 273,
-	yardmap = "h cbobbobc boboobob obbggbbo bogbbgob bogbbgob obbggbbo boboobob cbobbobc",
-	customparams = {
-		usebuildinggrounddecal = true,
-		buildinggrounddecaltype = "decals/armgeo_aoplane.dds",
-		buildinggrounddecalsizey = 6,
-		buildinggrounddecalsizex = 6,
-		buildinggrounddecaldecayspeed = 30,
-		unitgroup = 'energy',
-		cvbuildable = true,
-		geothermal = 1,
-		model_author = "Cremuss",
-		normaltex = "unittextures/Arm_normal.dds",
-		removestop = true,
-		removewait = true,
-		subfolder = "armbuildings/landeconomy",
-	},
-	featuredefs = {
-		dead = {
-			blocking = true,
-			category = "corpses",
-			collisionvolumeoffsets = "0 0 0",
-			collisionvolumescales = "60 70 60",
-			collisionvolumetype = "Box",
-			damage = 1050,
-			energy = 0,
-			featuredead = "HEAP",
-			featurereclamate = "SMUDGE01",
-			footprintx = 4,
-			footprintz = 4,
-			height = 40,
-			hitdensity = 100,
-			metal = 338,
-			object = "Units/armgeo_dead.s3o",
-			reclaimable = true,
-			seqnamereclamate = "TREE1RECLAMATE",
-			world = "All Worlds",
-		},
-		heap = {
-			blocking = false,
-			category = "heaps",
-			collisionvolumescales = "85.0 14.0 6.0",
-			collisionvolumetype = "cylY",
-			damage = 525,
-			energy = 0,
-			featurereclamate = "SMUDGE01",
-			footprintx = 4,
-			footprintz = 4,
-			height = 4,
-			hitdensity = 100,
-			metal = 135,
-			object = "Units/arm4X4B.s3o",
-			reclaimable = true,
-			resurrectable = 0,
-			seqnamereclamate = "TREE1RECLAMATE",
-			world = "All Worlds",
-		},
-	},
-	sfxtypes = {
-		pieceexplosiongenerators = {
-			[1] = "deathceg2",
-			[2] = "deathceg3",
-			[3] = "deathceg4",
-		},
-	},
-	sounds = {
-		canceldestruct = "cancel2",
-		underattack = "warning1",
-		count = {
-			[1] = "count6",
-			[2] = "count5",
-			[3] = "count4",
-			[4] = "count3",
-			[5] = "count2",
-			[6] = "count1",
-		},
-		select = {
-			[1] = "geothrm1",
-		},
-	},
-},
-
-
+------------------ Safe Energy -----------------------------
 
 
 coradvsol = {
@@ -453,6 +355,125 @@ freefusion = {
 		},
 	},
 },
+	 -- Alternative Energy ----------------
+
+
+armgeo = {
+	maxacc = 0,
+	activatewhenbuilt = true,
+	maxdec = 0,
+	buildangle = 2048,
+	energycost = 13000,
+	metalcost = 560,
+	buildpic = "ARMGEO.DDS",
+	buildtime = 13100,
+	canrepeat = false,
+	category = "ALL NOTLAND NOTSUB NOWEAPON NOTSHIP NOTAIR NOTHOVER SURFACE EMPABLE",
+	collisionvolumeoffsets = "0 -4 0",
+	collisionvolumescales = "60 70 60",
+	collisionvolumetype = "Box",
+	corpse = "dead",
+	energymake = 300,
+	energystorage = 1000,
+	explodeas = "geo",
+	footprintx = 4,
+	footprintz = 4,
+	icontype = "building",
+	idleautoheal = 5,
+	idletime = 1800,
+	health = 1940,
+	maxslope = 20,
+	maxwaterdepth = 5,
+	objectname = "Units/ARMGEO.s3o",
+	script = "Units/ARMGEO.cob",
+	seismicsignature = 0,
+	selfdestructas = "geo",
+	sightdistance = 273,
+	yardmap = "h cbobbobc boboobob obbggbbo bogbbgob bogbbgob obbggbbo boboobob cbobbobc",
+	customparams = {
+		usebuildinggrounddecal = true,
+		buildinggrounddecaltype = "decals/armgeo_aoplane.dds",
+		buildinggrounddecalsizey = 6,
+		buildinggrounddecalsizex = 6,
+		buildinggrounddecaldecayspeed = 30,
+		unitgroup = 'energy',
+		cvbuildable = true,
+		geothermal = 1,
+		model_author = "Cremuss",
+		normaltex = "unittextures/Arm_normal.dds",
+		removestop = true,
+		removewait = true,
+		subfolder = "armbuildings/landeconomy",
+	},
+	featuredefs = {
+		dead = {
+			blocking = true,
+			category = "corpses",
+			collisionvolumeoffsets = "0 0 0",
+			collisionvolumescales = "60 70 60",
+			collisionvolumetype = "Box",
+			damage = 1050,
+			energy = 0,
+			featuredead = "HEAP",
+			featurereclamate = "SMUDGE01",
+			footprintx = 4,
+			footprintz = 4,
+			height = 40,
+			hitdensity = 100,
+			metal = 338,
+			object = "Units/armgeo_dead.s3o",
+			reclaimable = true,
+			seqnamereclamate = "TREE1RECLAMATE",
+			world = "All Worlds",
+		},
+		heap = {
+			blocking = false,
+			category = "heaps",
+			collisionvolumescales = "85.0 14.0 6.0",
+			collisionvolumetype = "cylY",
+			damage = 525,
+			energy = 0,
+			featurereclamate = "SMUDGE01",
+			footprintx = 4,
+			footprintz = 4,
+			height = 4,
+			hitdensity = 100,
+			metal = 135,
+			object = "Units/arm4X4B.s3o",
+			reclaimable = true,
+			resurrectable = 0,
+			seqnamereclamate = "TREE1RECLAMATE",
+			world = "All Worlds",
+		},
+	},
+	sfxtypes = {
+		pieceexplosiongenerators = {
+			[1] = "deathceg2",
+			[2] = "deathceg3",
+			[3] = "deathceg4",
+		},
+	},
+	sounds = {
+		canceldestruct = "cancel2",
+		underattack = "warning1",
+		count = {
+			[1] = "count6",
+			[2] = "count5",
+			[3] = "count4",
+			[4] = "count3",
+			[5] = "count2",
+			[6] = "count1",
+		},
+		select = {
+			[1] = "geothrm1",
+		},
+	},
+},
+
+
+
+
+
 
 
 
