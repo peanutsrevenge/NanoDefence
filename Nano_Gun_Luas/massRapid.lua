@@ -12,7 +12,7 @@ armpb = {
 	damagemodifier = 0.5,
 	maxdamage = 2800,
 	mincloakdistance = 55,
-	sightdistance = 598,
+	sightdistance = 0,
 	customparams = {
 		techlevel = 1,
 	},
@@ -59,7 +59,7 @@ legmg = {
 	mass = 7500,
 	health = 2350,
 	selfdestructas = "mediumBuildingExplosionGenericSelfd",
-	sightdistance = 525,
+	sightdistance = 0,
 	customparams = {
 		techlevel = 2,
 	},

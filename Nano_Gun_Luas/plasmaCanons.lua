@@ -13,6 +13,7 @@ armguard = {
 	selfdestructas = "mediumBuildingExplosionGenericSelfd",
 	sightdistance = 455,
 	customparams = {
+		techlevel = 1,
 	},
 	weapondefs = {
 		plasma = {
@@ -63,6 +64,7 @@ corpun = {
 	selfdestructas = "largeBuildingExplosionGenericSelfd",
 	sightdistance = 455,
 	customparams = {
+		techlevel = 2,
 	},
 	weapondefs = {
 		plasma = {
@@ -116,7 +118,7 @@ armamb = {
 	selfdestructas = "smallBuildingExplosionGenericSelfd",
 	sightdistance = 442,
 	customparams = {
-		techlevel = 2,
+		techlevel = 3,
 	},
 	weapondefs = {
 		armamb_gun = {
@@ -173,7 +175,7 @@ cortoast = {
 	selfdestructas = "mediumBuildingExplosionGenericSelfd",
 	sightdistance = 416,
 	customparams = {
-		techlevel = 2,
+		techlevel = 4,
 	},
 	weapondefs = {
 		cortoast_gun = {
