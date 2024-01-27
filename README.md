@@ -1,4 +1,4 @@
-VERY EARLY stages of development as of early Jan 2024.
+Not being developed.  Can be forked by anyone who cares to.
 ---
 As the Raptor influence swept across the universe, the eternally waring machine factions were forcing to evolve, unite and fight for their continued existance.  
 They have all but purged locomotion from their design to enhance their defensive capabilities, requiring less land to fuel their assorted weaponry, incorporating the bio-weaponry of their Raptor foe.
